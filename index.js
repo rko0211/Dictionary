@@ -14,7 +14,7 @@ search.addEventListener('click', () => {
   fetch(`${url}${word}`)
     .then((response) => response.json())
     .then((data) => {
-      console.log(data);
+      // console.log(data);
       result_box.innerHTML = `<div class="word">
          <h3>${word}</h3>
          <button onclick ="playSound()">
